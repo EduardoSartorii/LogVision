@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "logvision"
+version = "0.1.0"
+description = ""
+authors = ["EduardoSartorii <eduardo.ornellas@outlook.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+djangorestframework = "^3.15.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
