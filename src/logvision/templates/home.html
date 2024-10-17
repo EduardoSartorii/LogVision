@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <!--Head-->
+  {% include 'base/head.html' %}
+  <!--Head-->
+  <body>
+    <div class="flex">
+      <!--Sidebar-->
+      {% include 'base/sidebar.html' %}
+      <!--Sidebar-->
+      <!-- Topbar -->
+      {% include 'base/topbar.html' %}
+      <!-- Topbar -->
+      <!-- Conteúdo principal -->
+      <div class="main-content">
+        <h1 class="text-3xl">Bem-vindo ao Logvision!</h1>
+        <p>
+          Esta é a interface principal onde você pode visualizar os dados e
+          relatórios gerados pelo sistema.
+        </p>
+      </div>
+      <!-- Conteúdo principal -->
+    </div>
+    <!-- Footer -->
+    {% include 'base/footer.html' %}
+    <!-- Footer -->
+  </body>
+</html>

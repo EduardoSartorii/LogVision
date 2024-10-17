@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #MyApps
     'logvision.accounts',
+    'logvision.dashboard',
 ]
 
 MIDDLEWARE = [
@@ -92,4 +93,4 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = 'home/'
